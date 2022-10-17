@@ -1,0 +1,44 @@
+.cur-input {
+    display: flex;
+    gap: 5px;
+    position: relative;
+}
+
+input[type=number] {
+    background-color: transparent;
+    padding: 5px 20px;
+    font-size: 30px;
+    outline: none;
+    border: 3px solid aquamarine;
+    border-radius: 30px;
+    width: 150px;
+    color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.cur-select {
+    background-color: transparent;
+    outline: none;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    color: white;
+}
+
+.cur-select option {
+    background-color: darkcyan;
+    text-align: center;
+}
+
+
+.cur-select::-webkit-scrollbar {
+    display: none;
+}
+
+.cur-select:hover {
+    cursor: pointer;
+    border-color: rgb(75, 207, 214);
+}

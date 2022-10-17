@@ -1,0 +1,33 @@
+.header {
+    height: 10vh;
+    color: white;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.logo-span {
+    color: rebeccapurple;
+    font-size: 30px;
+}
+
+.logo b {
+    color: white;
+    font-size: 50px;
+}
+
+
+
+.currency-pairs {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+    width: 300px;
+}
